@@ -26,6 +26,16 @@ html {
 
 body {
   margin: 0;
+  background-color: #1f2942 !important;
+}
+
+section {
+  background-color: #681b98 !important;
+}
+
+h2 {
+  color: #ff5e00 !important;
+  border-color: white !important;
 }
 
 /**
