@@ -153,90 +153,6 @@
 
   <div class="preloader text-white fs-6 text-uppercase overflow-hidden"></div>
 
-  <div class="search-popup">
-    <div class="search-popup-container">
-
-      <form role="search" method="get" class="form-group" action="">
-        <input type="search" id="search-form" class="form-control border-0 border-bottom"
-          placeholder="Type and press enter" value="" name="s" />
-        <button type="submit" class="search-submit border-0 position-absolute bg-white"
-          style="top: 15px;right: 15px;"><svg class="search" width="24" height="24">
-            <use xlink:href="#search"></use>
-          </svg></button>
-      </form>
-
-      <h5 class="cat-list-title">Browse Categories</h5>
-
-      <ul class="cat-list">
-        <li class="cat-list-item">
-          <a href="#" title="Jackets">Jackets</a>
-        </li>
-        <li class="cat-list-item">
-          <a href="#" title="T-shirts">T-shirts</a>
-        </li>
-        <li class="cat-list-item">
-          <a href="#" title="Handbags">Handbags</a>
-        </li>
-        <li class="cat-list-item">
-          <a href="#" title="Accessories">Accessories</a>
-        </li>
-        <li class="cat-list-item">
-          <a href="#" title="Cosmetics">Cosmetics</a>
-        </li>
-        <li class="cat-list-item">
-          <a href="#" title="Dresses">Dresses</a>
-        </li>
-        <li class="cat-list-item">
-          <a href="#" title="Jumpsuits">Jumpsuits</a>
-        </li>
-      </ul>
-
-    </div>
-  </div>
-
-  <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasCart" aria-labelledby="My Cart">
-    <div class="offcanvas-header justify-content-center">
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-      <div class="order-md-last">
-        <h4 class="d-flex justify-content-between align-items-center mb-3">
-          <span class="text-primary">Your cart</span>
-          <span class="badge bg-primary rounded-pill">3</span>
-        </h4>
-        <ul class="list-group mb-3">
-          <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6 class="my-0">Growers cider</h6>
-              <small class="text-body-secondary">Brief description</small>
-            </div>
-            <span class="text-body-secondary">$12</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6 class="my-0">Fresh grapes</h6>
-              <small class="text-body-secondary">Brief description</small>
-            </div>
-            <span class="text-body-secondary">$8</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6 class="my-0">Heinz tomato ketchup</h6>
-              <small class="text-body-secondary">Brief description</small>
-            </div>
-            <span class="text-body-secondary">$5</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between">
-            <span>Total (USD)</span>
-            <strong>$20</strong>
-          </li>
-        </ul>
-
-        <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to Checkout</button>
-      </div>
-    </div>
-  </div>
-
   <nav class="navbar navbar-expand-lg bg-light text-uppercase fs-6 p-3 border-bottom align-items-center">
     <div class="container-fluid">
       <div class="row justify-content-between align-items-center w-100">
@@ -272,16 +188,16 @@
                     aria-haspopup="true" aria-expanded="false">Home</a>
                   <ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownHome">
                     <li>
-                      <a href="index.html" class="dropdown-item item-anchor">Films of Drama</a>
+                      <a href="#new-arrival" class="dropdown-item item-anchor">Films of Drama</a>
                     </li>
                     <li>
-                      <a href="index.html" class="dropdown-item item-anchor">Films of Ciencia Ficción</a>
+                      <a href="#best-sellers" class="dropdown-item item-anchor">Films of Ciencia Ficción</a>
                     </li>
                     <li>
-                      <a href="index.html" class="dropdown-item item-anchor">Films of Thriller</a>
+                      <a href="#related-products" class="dropdown-item item-anchor">Films of Thriller</a>
                     </li>
                     <li>
-                      <a href="index.html" class="dropdown-item item-anchor">Films of Animación</a>
+                      <a href="#animation" class="dropdown-item item-anchor">Films of Animación</a>
                     </li>
                   </ul>
                 </li>
@@ -379,47 +295,11 @@
                   <a class="nav-link" href="#">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#information">Contact</a>
                 </li>
               </ul>
             </div>
           </div>
-        </div>
-
-        <div class="col-3 col-lg-auto">
-          <ul class="list-unstyled d-flex m-0">
-            <li class="d-none d-lg-block">
-              <a href="index.html" class="text-uppercase mx-3">Wishlist <span class="wishlist-count">(0)</span>
-              </a>
-            </li>
-            <li class="d-none d-lg-block">
-              <a href="index.html" class="text-uppercase mx-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart"
-                aria-controls="offcanvasCart">Cart <span class="cart-count">(0)</span>
-              </a>
-            </li>
-            <li class="d-lg-none">
-              <a href="#" class="mx-2">
-                <svg width="24" height="24" viewBox="0 0 24 24">
-                  <use xlink:href="#heart"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="d-lg-none">
-              <a href="#" class="mx-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart"
-                aria-controls="offcanvasCart">
-                <svg width="24" height="24" viewBox="0 0 24 24">
-                  <use xlink:href="#cart"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="search-box" class="mx-2">
-              <a href="#search" class="search-button">
-                <svg width="24" height="24" viewBox="0 0 24 24">
-                  <use xlink:href="#search"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
         </div>
 
       </div>
@@ -966,7 +846,6 @@
               <svg width="24" height="24" viewBox="0 0 24 24">
                 <use xlink:href="#play"></use>
               </svg>
-              <img src="images/text-pattern.png" alt="pattern" class="text-rotate">
             </a>
           </div>
         </div>
@@ -1148,7 +1027,7 @@
     </div>
   </section>
 
-  <section class="blog py-5">
+  <section id="animation" class="blog py-5">
     <div class="container">
       <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-3">
         <h4 class="text-uppercase">Films of Animación</h4>
@@ -1206,39 +1085,41 @@
     </div>
   </section>
 
-  <section class="newsletter bg-light" style="background: url(images/pattern-bg.png) no-repeat;">
+  <section class="newsletter bg-light">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8 py-5 my-5">
           <div class="subscribe-header text-center pb-3">
-            <h3 class="section-title text-uppercase">Sign Up for our newsletter</h3>
+            <h3 class="section-title text-uppercase">Subscribirse a FilmGold</h3>
           </div>
-          
-          <!-- DIV contenedor del formulario -->
-           <!--
+
           <form id="form" class="d-flex flex-wrap gap-2">
-            <label id="label" class="form-control form-control-lg">Nombre Completo:</label>
-            <input id="text" type="text" name="name" placeholder="Your Name" class="form-control form-control-lg">
-            <label id="label" class="form-control form-control-lg">Correo:</label>
+
+            <label for="username">Nombre de Usuario:</label>
+            <input type="text" id="username" name="username" placeholder="Your User Addresss" class="form-control form-control-lg">
+
+            <label for="email">Correo:</label>
             <input id="text" type="text" name="email" placeholder="Your Email Addresss" class="form-control form-control-lg">
-            
-            <label id="label" class="form-control form-control-lg">Generos Favoritos:</label>
-            <input id="text" type="checkbox" name="genero">Acción<br>
-            <input id="text" type="checkbox" name="genero">Aventura<br>
-            <input id="text" type="checkbox" name="genero">Drama<br>
-            <input id="text" type="checkbox" name="genero">Ciencia Ficción<br>
-            <input id="text" type="checkbox" name="genero">Comedia<br>
-            <input id="text" type="checkbox" name="genero">Thriller<br>
-            <input id="text" type="checkbox" name="genero">Animación<br>
-
-            <button class="btn btn-dark btn-lg text-uppercase w-100">Submit</button>
-          </form>-->
-
+      
+            <label for="genero-favorito">Género de película favorito:</label>
+            <select id="genero-favorito" name="genero-favorito" class="form-control form-control-lg">
+              <option value="">Selecciona un género</option>
+              <option value="accion">Acción</option>
+              <option value="comedia">Comedia</option>
+              <option value="drama">Drama</option>
+              <option value="ciencia-ficcion">Ciencia Ficción</option>
+              <option value="thriller">Thriller</option>
+            </select>
+      
+            <button class="btn btn-dark btn-lg text-uppercase w-100">Subscribirse</button>
+          </form>
           
+
+          <!--
           <form id="form" class="d-flex flex-wrap gap-2">
             <input id="text" type="text" name="email" placeholder="Your Email Addresss" class="form-control form-control-lg">
             <button class="btn btn-dark btn-lg text-uppercase w-100">Subscriber</button>
-          </form>
+          </form>-->
           
         </div>
         <!-- Suscribers - START -->
@@ -1311,20 +1192,9 @@
       </div>
     </div>
   </section>
-  
-  <!---<section class = "formulario">
-    <form id="form" ... >
-      ...
-      <input id="form_name" type="text" ... >
-      ...
-      <select id="form_products"> ... </select>
-      ...
-      <input id="form_option1" type="radio">
-    </form>	
-  </section>---->
 
   <footer id="footer" class="mt-5">
-    <div class="container">
+    <div id="information" class="container">
       <div class="row d-flex flex-wrap justify-content-between py-5">
         <div class="col-md-3 col-sm-6">
           <div class="footer-menu footer-menu-001">
@@ -1375,28 +1245,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="footer-menu footer-menu-002">
-            <h5 class="widget-title text-uppercase mb-4">Quick Links</h5>
-            <ul class="menu-list list-unstyled text-uppercase border-animation-left fs-6">
-              <li class="menu-item">
-                <a href="index.html" class="item-anchor">Home</a>
-              </li>
-              <li class="menu-item">
-                <a href="index.html" class="item-anchor">About</a>
-              </li>
-              <li class="menu-item">
-                <a href="blog.html" class="item-anchor">Services</a>
-              </li>
-              <li class="menu-item">
-                <a href="styles.html" class="item-anchor">Single item</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="item-anchor">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        
         <div class="col-md-3 col-sm-6">
           <div class="footer-menu footer-menu-003">
             <h5 class="widget-title text-uppercase mb-4">Help & Info</h5>
@@ -1437,11 +1286,6 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 d-flex flex-wrap">
-            <div class="shipping">
-              <span>We ship with:</span>
-              <img src="images/arct-icon.png" alt="icon">
-              <img src="images/dhl-logo.png" alt="icon">
-            </div>
             <div class="payment-option">
               <span>Payment Option:</span>
               <img src="images/visa-card.png" alt="card">
