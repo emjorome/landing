@@ -1,0 +1,35 @@
+.new-arrival{
+    background-color: rgb(246, 184, 60) !important;
+}
+
+.new-arrival div div h4, .new-arrival div div a{
+    background-color: rgb(246, 230, 177)!important;
+
+}
+
+#best-sellers{
+    background-color: rgb(111, 190, 127) !important;
+}
+
+.best-sellers div div h4, .best-sellers div div a{
+    background-color: rgb(142, 241, 160)!important;
+
+}
+
+.related-products{
+    background-color: rgb(255, 110, 97) !important;
+}
+
+.related-products div div h4, .related-products div div a{
+    background-color: rgb(250, 169, 162)!important;
+
+}
+
+#animation{
+    background-color: rgb(78, 167, 208) !important;
+}
+
+#animation div div h4, #animation div div a, #animation p{
+    background-color: rgb(133, 212, 248)!important;
+    color: black !important;
+}
